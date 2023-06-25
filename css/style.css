@@ -47,6 +47,7 @@ body {
   background-color: rgb(27, 27, 27);
   color: rgb(151, 150, 150);
   padding: 100px 0;
+
 }
 
 .aboutImage {
@@ -56,6 +57,7 @@ body {
 .skillsSection {
   background-color: rgb(27, 27, 27);
   color: rgb(151, 150, 150);
+
 }
 
 
@@ -90,16 +92,17 @@ body {
 }
 
 #navigation {
+
+  padding: 20px 10px;
+  z-index: 100;
+  width: 100%;
+  color: #fff;
   background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
     rgb(143, 0, 81) 100%
   );
-  padding: 20px 10px;
-  z-index: 100;
-  width: 100%;
-  color: #fff;
-
+  
 }
 
 
@@ -107,6 +110,7 @@ body {
 .navbar-brand:hover {
   color: #f8f4f4;
   font-size: 34px;
+
 }
 
 
