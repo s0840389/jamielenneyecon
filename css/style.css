@@ -1,5 +1,5 @@
 body {
-  font-size: 14px;
+  font-size: 15px;
   color: #333;
   background-color: #fff;
   letter-spacing: 1px;
@@ -51,7 +51,7 @@ body {
 }
 
 .aboutImage {
-  max-width: 100%;
+  max-width: 75%;
 }
 
 .skillsSection {
@@ -100,7 +100,7 @@ body {
   background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
-    rgb(143, 0, 81) 100%
+    rgb(50, 211, 211) 100%
   );
   
 }
@@ -114,3 +114,17 @@ body {
 }
 
 
+/* Optional: Apply some styles to the container for positioning */
+.image-container {
+    position: relative;
+    /*width: 450px; /* Adjust the width as needed */
+    /*height: 450px; /* Adjust the height as needed */
+    margin: 30px; /* Adjust the margin as needed */
+}
+
+/* Optional: Style the image */
+.image-container img {
+    width: 40%;
+    height: 40%;
+    object-fit: cover; /* This property ensures the image covers the container */
+}
