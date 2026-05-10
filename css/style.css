@@ -50,6 +50,15 @@ body {
 
 }
 
+/* Tighten spacing between About and Research sections */
+#about {
+  padding-bottom: 40px;
+}
+
+#Research {
+  padding-top: 40px;
+}
+
 .aboutImage {
   max-width: 75%;
 }
@@ -128,3 +137,7 @@ body {
     height: 40%;
     object-fit: cover; /* This property ensures the image covers the container */
 }
+
+h2 { font-size: 26px; }
+h3 { font-size: 18px; }
+h4 { font-size: 16px; }
